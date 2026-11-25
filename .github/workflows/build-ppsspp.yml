@@ -103,7 +103,7 @@ jobs:
           find ppsspp-src -name "*.apk" -exec cp {} out/ \;
           ls -la out
 
-      - uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v4
         with:
           name: TS3Player-apk
           path: out/
